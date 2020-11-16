@@ -2,56 +2,42 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: "David's Website", // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'David',
+  subtitle: "I'm a Software Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: '',
+  paragraphOne:
+    "I'm a Computer Science student at Universidade Federal de Sergipe, Brazil, since 2018.",
+  paragraphTwo:
+    'I have a great passion in Game development, but for now I’m only a beginning Software Developer that have a bit of experience in web development ',
+  paragraphThree:
+    'My objective is to become a Great Game developer and put my ideas and creativity to work and make some inspiring games',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Planets.png',
+    title: 'Universe Discover',
+    info:
+      'Universe Discover is a React Project that catalogs celestial bodies like Planets, Stars, Planet System, Galaxy and others',
+    info2: 'This Project was an activity for Database discipline from the college. ',
+    url: 'https://universe-discovery-c7151.web.app',
+    repo: 'https://github.com/02David03/Bd-Work', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +45,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'daviid.0203@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,22 +54,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/davd_id',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/david-almeida-cunha-22b147188/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/02David03',
     },
   ],
 };
